@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "597577776392",
+    "firebase_url": "https://sabra-marketers.firebaseio.com",
+    "project_id": "sabra-marketers",
+    "storage_bucket": "sabra-marketers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597577776392:android:a8d24eb29e712e0c6d00bd",
+        "android_client_info": {
+          "package_name": "com.mgt.marketers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597577776392-foksoe3cfv2u03imsqei9eob1gugcs7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mgt.marketers_app",
+            "certificate_hash": "412323d656f8c9a7c65c3693f2ab005928b62ff1"
+          }
+        },
+        {
+          "client_id": "597577776392-tcg8i53bvjqt5n6nd29k0ml65b2c8r5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7kPvojRFcU57tNKDiRpoamXRtrYnKhFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597577776392-tcg8i53bvjqt5n6nd29k0ml65b2c8r5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

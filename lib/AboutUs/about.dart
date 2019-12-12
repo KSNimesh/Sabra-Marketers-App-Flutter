@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:marketers_app/AboutUs/AboutUs.dart';
 import 'package:marketers_app/AboutUs/LecturePannel.dart';
-import 'package:marketers_app/HomeScreen.dart';
+import 'package:marketers_app/widgets/Homescreen2.dart';
+
 
 
 class About extends StatefulWidget {
@@ -18,7 +19,7 @@ Future<bool> _onWillPop()  async {
     //  Map<String, Map<String, String>> localizedValues = await initializeI18n();
   return Navigator.of(context).pushReplacement(new MaterialPageRoute(
         builder: (BuildContext context) =>
-          HomeScreen()));
+          MyMain()));
 
 
   }

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:marketers_app/login.dart';
+// import 'package:marketers_app/ui/screens/sign_in.dart';
 
 void main() => runApp(MyApp());
 
@@ -38,7 +39,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 startTime() async {
     
-    var _duration = new Duration(seconds: 4);
+    var _duration = new Duration(seconds: 3);
     return new Timer(_duration, navigationPage);
   }
    Future navigationPage() async {
@@ -60,3 +61,42 @@ startTime() async {
     );
   }
 }
+
+// import 'package:flutter/material.dart';
+// import 'package:marketers_app/ui/screens/sign_up.dart';
+// import 'package:marketers_app/util/state_widget.dart';
+// import 'package:marketers_app/ui/theme.dart';
+// import 'package:marketers_app/ui/screens/home.dart';
+// import 'package:marketers_app/ui/screens/sign_in.dart';
+// // import 'package:marketers_app/ui/screens/sign_up.dart';
+// import 'package:marketers_app/ui/screens/forgot_password.dart';
+// // import 'package:marketers_app/ui/theme.dart';
+
+// class MyApp extends StatelessWidget {
+//   MyApp() {
+//     //Navigation.initPaths();
+//   }
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'MyApp Title',
+//       theme: buildTheme(),
+//       //onGenerateRoute: Navigation.router.generator,
+//       debugShowCheckedModeBanner: false,
+//       routes: {
+//         '/': (context) => HomeScreen(),
+//         '/signin': (context) => SignInScreen(),
+//         '/signup': (context) => SignUpScreen(),
+//         '/forgot-password': (context) => ForgotPasswordScreen(),
+//       },
+//     );
+//   }
+// }
+
+// void main() {
+//   StateWidget stateWidget = new StateWidget(
+//     child: new MyApp(),
+//   );
+//   runApp(stateWidget);
+// }
+

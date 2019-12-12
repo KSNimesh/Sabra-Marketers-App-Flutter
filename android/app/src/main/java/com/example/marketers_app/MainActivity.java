@@ -1,4 +1,4 @@
-package com.sabra_marketers_app;
+package com.mgt.marketers_app;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

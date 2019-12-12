@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:marketers_app/Animation/FadeAnimation.dart';
-import 'package:marketers_app/HomeScreen.dart';
+import 'package:marketers_app/widgets/Homescreen2.dart';
+// import 'package:marketers_app/HomeScreen.dart';
+// import 'package:marketers_app/widgets/testmain.dart';
 
 void main() =>
     runApp(MaterialApp(debugShowCheckedModeBanner: false, home: LoginPage()));
@@ -24,15 +26,7 @@ class _HomePageState extends State<LoginPage> {
             height: 300,
             child: Stack(
               children: <Widget>[
-  // Center(
-  //                 // top: 30,
-  //                 // // height: 300,
-  //                 // width: width,
-  //                 child: FadeAnimation(
-  //                     1,
-                      
-  //                     Text("Sabra Marketers,",style: TextStyle(color: Colors.black),)),
-  //               ),
+ 
                 Positioned(
                   top: -30,
                   height: 300,
@@ -136,14 +130,26 @@ class _HomePageState extends State<LoginPage> {
                 FadeAnimation(
                     1.9,
                     Container(
-                      height: 50,
-                      margin: EdgeInsets.symmetric(horizontal: 60),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(50),
-                        color: Color.fromRGBO(49, 39, 79, 1),
-                      ),
+                      height: 40,
+                      // margin: EdgeInsets.symmetric(horizontal: 40),
+                      // decoration: BoxDecoration(
+                      //   borderRadius: BorderRadius.circular(50),
+                      //   color: Color.fromRGBO(49, 39, 79, 1),
+                      // ),
                       child: Center(
-                        child: FlatButton(
+                        child: SizedBox(
+                width: 200,
+                height: 50.0,
+                        
+                        child:FlatButton(
+                          
+                          color: Color.fromRGBO(49, 39, 79, 1),
+                             shape: const RoundedRectangleBorder(
+                                              side: BorderSide(
+                                                  color: Colors.black12),
+                                              borderRadius: BorderRadius.all(
+                                                  Radius.circular(50.0)),
+                                            ),
                           child: Text(
                             "Login",
                             style: TextStyle(color: Colors.white),
@@ -151,9 +157,9 @@ class _HomePageState extends State<LoginPage> {
                           onPressed: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (BuildContext context) =>
-                                    HomeScreen()));
+                                    MyMain()));
                           },
-                        ),
+                        ),),
                       ),
                     )),
                 SizedBox(
